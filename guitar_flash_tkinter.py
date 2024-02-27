@@ -108,14 +108,10 @@ def jogo():
     while True:
         for x in range(3):
             descerNotas()
-            #    (0.03)
             sleep(0.03)
         for i, x in enumerate(teclas_clicar):
             x['bg'] = cores_teclas[i]
         gerarNota()
-        # if len(notas) != 5:
-        #     gerarNota()
-        ...
 
 
 window = Tk()
